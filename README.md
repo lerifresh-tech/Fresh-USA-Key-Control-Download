@@ -2,25 +2,21 @@
 
 Official public Windows installer downloads for Fresh USA Key Control.
 
-## Download
-
 **[Download Key-Control-Setup.exe](https://github.com/lerifresh-tech/Fresh-USA-Key-Control-Download/releases/latest/download/Key-Control-Setup.exe)**
 
-This permanent public address requires no GitHub account and follows the latest published release. The installer filename stays `Key-Control-Setup.exe` in future releases.
+Current installer: **0.5.2.25**. No GitHub login is required. This permanent address follows the latest published installer; the download filename remains `Key-Control-Setup.exe`.
 
-Current version: **0.5.2, verified Windows build 23**.
+## Verified Windows package
 
-Download the EXE, run it on your Windows computer and follow the setup instructions. Existing licensing and DEMO functionality are retained; downloading the installer does not include an activation entitlement.
+The published EXE is the unchanged installer from the owner's tested Windows checkpoint. It passed exact-installer Windows acceptance: **829 interface checks**, **42 SQL Server integration checks**, clean installation, Repair, uninstall/reinstall, Host/Client and data-retention checks.
 
-## Verification
+F-02/F-920 equipment checks were reported by the owner. Other reader models, physical multi-computer LAN and other Fresh USA applications require separate equipment acceptance. CI does not replace hardware testing.
 
-Windows software acceptance passed: 757 interface checks, 42 SQL Server integration checks, installation, Repair, uninstall/reinstall and data-retention checks. The published installer matches the SHA-256 of the accepted build.
+The installer is not code-signed. Existing licensing and DEMO functionality are retained; downloading the installer does not include a commercial activation entitlement.
 
-Physical RFID equipment, client drivers and physical multi-computer LAN were not tested by CI. The installer is not code-signed.
+- [SHA-256 checksums](https://github.com/lerifresh-tech/Fresh-USA-Key-Control-Download/releases/latest/download/SHA256SUMS.txt)
+- [Current release and version history](https://github.com/lerifresh-tech/Fresh-USA-Key-Control-Download/releases)
 
-- [Latest SHA-256 checksums](https://github.com/lerifresh-tech/Fresh-USA-Key-Control-Download/releases/latest/download/SHA256SUMS.txt)
-- [Version history and release notes](https://github.com/lerifresh-tech/Fresh-USA-Key-Control-Download/releases)
+This public repository distributes installers only. Product source code, development SDK archives, owner tools and internal logs remain private.
 
-Published versioned assets are retained. Product source code, development SDK archives and internal diagnostic logs are maintained separately and are not published in this repository.
-
-Copyright Fresh USA, Inc. This repository does not grant a software license or include an activation entitlement.
+Copyright Fresh USA, Inc. No software license or activation entitlement is granted by this repository.
